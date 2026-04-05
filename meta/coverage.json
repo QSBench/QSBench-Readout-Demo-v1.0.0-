@@ -1,0 +1,33 @@
+{
+  "split": {
+    "train": 1640,
+    "val": 201,
+    "test": 207
+  },
+  "circuit_type_resolved": {
+    "hea": 390,
+    "random": 378,
+    "qft": 434,
+    "real_amplitudes": 405,
+    "efficient": 441
+  },
+  "circuit_type_requested": {
+    "mixed": 2048
+  },
+  "noise_type": {
+    "readout": 2048
+  },
+  "entanglement": {
+    "full": 1236,
+    "None": 812
+  },
+  "backend_device": {
+    "GPU": 2048
+  },
+  "precision_mode": {
+    "double": 2048
+  },
+  "observable_mode": {
+    "mixed": 2048
+  }
+}

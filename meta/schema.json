@@ -1,0 +1,66 @@
+{
+  "dataset_version": "1.1.0",
+  "core_columns": [
+    "sample_id",
+    "sample_seed",
+    "circuit_hash",
+    "split",
+    "circuit_type_resolved",
+    "circuit_type_requested",
+    "n_qubits",
+    "depth",
+    "entanglement",
+    "qasm_raw",
+    "qasm_transpiled",
+    "adjacency",
+    "gate_entropy",
+    "meyer_wallach",
+    "noise_type",
+    "noise_prob",
+    "observable_bases",
+    "observable_mode",
+    "shots",
+    "gpu_requested",
+    "gpu_available",
+    "backend_device",
+    "precision_mode",
+    "total_gates",
+    "single_qubit_gates",
+    "two_qubit_gates",
+    "cx_count",
+    "h_count",
+    "rx_count",
+    "ry_count",
+    "rz_count"
+  ],
+  "label_prefixes": [
+    "ideal_expval_",
+    "noisy_expval_",
+    "error_",
+    "sign_ideal_",
+    "sign_noisy_"
+  ],
+  "observable_mode": "mixed",
+  "observable_bases": [
+    "Z",
+    "X",
+    "Y"
+  ],
+  "gate_basis": [
+    "id",
+    "x",
+    "y",
+    "z",
+    "h",
+    "rx",
+    "ry",
+    "rz",
+    "cx"
+  ],
+  "split_strategy": {
+    "type": "hash_mod",
+    "train_frac": 0.8,
+    "val_frac": 0.1,
+    "test_frac": 0.1
+  }
+}

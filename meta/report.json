@@ -1,0 +1,57 @@
+{
+  "rows": 2048,
+  "columns": 9,
+  "mean_ideal_expval_Z_global": -0.0007326806982421873,
+  "std_ideal_expval_Z_global": 0.09423370890186288,
+  "mean_noisy_expval_Z_global": -0.0007126069335937502,
+  "std_noisy_expval_Z_global": 0.09910539126747762,
+  "unique_circuits": 2048,
+  "families": {
+    "efficient": 441,
+    "qft": 434,
+    "real_amplitudes": 405,
+    "hea": 390,
+    "random": 378
+  },
+  "splits": {
+    "train": 1640,
+    "test": 207,
+    "val": 201
+  },
+  "dataset_version": "1.1.0",
+  "shards": 4,
+  "total_rows_written": 2048,
+  "coverage": {
+    "split": {
+      "train": 1640,
+      "val": 201,
+      "test": 207
+    },
+    "circuit_type_resolved": {
+      "hea": 390,
+      "random": 378,
+      "qft": 434,
+      "real_amplitudes": 405,
+      "efficient": 441
+    },
+    "circuit_type_requested": {
+      "mixed": 2048
+    },
+    "noise_type": {
+      "readout": 2048
+    },
+    "entanglement": {
+      "full": 1236,
+      "None": 812
+    },
+    "backend_device": {
+      "GPU": 2048
+    },
+    "precision_mode": {
+      "double": 2048
+    },
+    "observable_mode": {
+      "mixed": 2048
+    }
+  }
+}

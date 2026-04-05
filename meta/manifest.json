@@ -1,0 +1,42 @@
+{
+  "release_dir": "/app/out/QSBench-Readout-Demo-v1.0.0",
+  "shards_dir": "/app/out/QSBench-Readout-Demo-v1.0.0/shards",
+  "shards": [
+    {
+      "parquet": "/app/out/QSBench-Readout-Demo-v1.0.0/shards/QSBench-Readout-Demo-v1.0.0_shard00000.parquet",
+      "csv": null,
+      "rows": 512,
+      "columns": 167,
+      "shard_index": 0,
+      "start": 0,
+      "end": 512
+    },
+    {
+      "parquet": "/app/out/QSBench-Readout-Demo-v1.0.0/shards/QSBench-Readout-Demo-v1.0.0_shard00001.parquet",
+      "csv": null,
+      "rows": 512,
+      "columns": 167,
+      "shard_index": 1,
+      "start": 512,
+      "end": 1024
+    },
+    {
+      "parquet": "/app/out/QSBench-Readout-Demo-v1.0.0/shards/QSBench-Readout-Demo-v1.0.0_shard00002.parquet",
+      "csv": null,
+      "rows": 512,
+      "columns": 167,
+      "shard_index": 2,
+      "start": 1024,
+      "end": 1536
+    },
+    {
+      "parquet": "/app/out/QSBench-Readout-Demo-v1.0.0/shards/QSBench-Readout-Demo-v1.0.0_shard00003.parquet",
+      "csv": null,
+      "rows": 512,
+      "columns": 167,
+      "shard_index": 3,
+      "start": 1536,
+      "end": 2048
+    }
+  ]
+}

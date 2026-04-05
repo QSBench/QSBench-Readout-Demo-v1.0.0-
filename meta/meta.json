@@ -1,0 +1,55 @@
+{
+  "generator_version": "v5.1.0",
+  "dataset_version": "1.1.0",
+  "parameters": {
+    "n_qubits": 8,
+    "depth": 6,
+    "n_samples": 2048,
+    "circuit_type": "mixed",
+    "entanglement": "full",
+    "noise": "readout",
+    "noise_prob": 0.01,
+    "noise_params": {
+      "p0": 0.02,
+      "p1": 0.015
+    },
+    "observable": "Z,X,Y",
+    "observable_mode": "mixed",
+    "shots": 1024,
+    "use_gpu": true,
+    "seed": 967369642,
+    "output_root": "/app/out",
+    "shard_size": 512,
+    "train_frac": 0.8,
+    "val_frac": 0.1,
+    "test_frac": 0.1,
+    "write_csv": false
+  },
+  "seed": 967369642,
+  "num_samples": 2048,
+  "observables": [
+    "Z",
+    "X",
+    "Y"
+  ],
+  "observable_mode": "mixed",
+  "gpu_available": true,
+  "gpu_requested": true,
+  "backend_device": "GPU",
+  "precision_mode": "double",
+  "available_devices": [
+    "CPU",
+    "GPU"
+  ],
+  "environment": {
+    "python": "3.10.12 (main, Mar  3 2026, 11:56:32) [GCC 11.4.0]",
+    "platform": "Linux-6.17.0-20-generic-x86_64-with-glibc2.35",
+    "qiskit": "1.4.5",
+    "qiskit-aer": "unknown",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "tqdm": "4.67.3",
+    "rich": "14.3.3"
+  },
+  "generated_at": "2026-04-05T13:49:38.657388"
+}

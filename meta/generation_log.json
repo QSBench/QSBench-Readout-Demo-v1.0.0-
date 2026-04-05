@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "num_samples": 2048,
+  "num_shards": 4,
+  "backend_device": "GPU",
+  "gpu_available": true,
+  "gpu_requested": true,
+  "dataset_version": "1.1.0"
+}
